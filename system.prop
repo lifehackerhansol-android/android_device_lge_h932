@@ -1,0 +1,6 @@
+#
+# system props for h932
+#
+
+# Updater
+lineage.updater.uri=https://raw.githubusercontent.com/lifehackerhansol-android/lineage_ota/master/api/h932.json

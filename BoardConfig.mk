@@ -11,5 +11,8 @@ DEVICE_PATH := device/lge/h932
 
 TARGET_OTA_ASSERT_DEVICE := v30,h932
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # inherit from the proprietary version
 include vendor/lge/h932/BoardConfigVendor.mk
