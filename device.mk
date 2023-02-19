@@ -7,7 +7,7 @@
 DEVICE_PATH := device/lge/h932
 
 PRODUCT_SOONG_NAMESPACES += \
-    device/lge/h932
+    $(DEVICE_PATH)
 
 # common v30
 $(call inherit-product, device/lge/joan-common/joan.mk)
